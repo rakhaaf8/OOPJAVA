@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        hero hero1 = new hero("Ucup",100);
+    hero hero1 = new hero("Ucup",100);
 		hero hero2 = new hero("Otong",100);
 		heroagility heroAgility = new heroagility("Dudung", 50);
 		herointel heroIntel = new herointel("Johny", 20);
