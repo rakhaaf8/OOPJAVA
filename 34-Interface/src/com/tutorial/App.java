@@ -10,7 +10,7 @@ public class App {
         hero1.show();
         hero2.show();
         hero3.show();
-        hero1.attack(hero2);
+        // hero1.attack(hero2);
         hero2.attack(hero1);
         hero3.spellskill(hero1);
 

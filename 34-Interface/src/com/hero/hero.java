@@ -1,6 +1,6 @@
 package com.hero;
 
-public class hero implements Iattack { // using implements
+public class hero { // using implements
     private String name;
     private double health;
 
@@ -9,9 +9,9 @@ public class hero implements Iattack { // using implements
         this.health = health;
     }
 
-    public void attack(hero enemy) {
-        System.out.println(this.name + " attacking " + enemy.name);
-    }
+    // public void attack(hero enemy) {
+    //     System.out.println(this.name + " attacking " + enemy.name);
+    // }
 
     public void show() {
         System.out.println("name = " + this.name);
